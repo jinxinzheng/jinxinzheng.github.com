@@ -4,7 +4,7 @@
   <title><![CDATA[Jinxin's Blog]]></title>
   <link href="http://jinxinzheng.github.io/atom.xml" rel="self"/>
   <link href="http://jinxinzheng.github.io/"/>
-  <updated>2015-10-14T14:46:09+08:00</updated>
+  <updated>2015-10-14T15:12:42+08:00</updated>
   <id>http://jinxinzheng.github.io/</id>
   <author>
     <name><![CDATA[Jinxin Zheng]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[终于搞定了octopress的配置]]></title>
+    <link href="http://jinxinzheng.github.io/blog/2015/10/14/zhong-yu-gao-ding-liao-octopressde-pei-zhi/"/>
+    <updated>2015-10-14T14:59:13+08:00</updated>
+    <id>http://jinxinzheng.github.io/blog/2015/10/14/zhong-yu-gao-ding-liao-octopressde-pei-zhi</id>
+    <content type="html"><![CDATA[<p>  说来惭愧，作为一个码农，竟然拖延了这么久才折腾出自己的blog。以前对blog的印象是花里胡哨的界面，难用的Web编辑器，支离破碎的页面逻辑。。以至于很长一段时间很反感blog。离开Web太久了，竟然已经孤陋寡闻到了这种地步。。</p>
+
+<p>  用octopress+github搭建blog，逼格够够的。由于我对git的喜爱，所以用起来得心应手。除了对ruby和rake/gem不太熟，配置时稍微有点绕外，其他都很简单。关键是页面干净啊，再也不用忍受某易，某浪，某DN的那种业余界面了。嗯嗯。荒废了很久的blog既然重新拾起来，就要勤写。以后一定要克服懒惰的毛病，搞技术的还是要有搞技术的样子。</p>
+
+<p>  下一步研究怎么开通评论功能。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Test Blog]]></title>
