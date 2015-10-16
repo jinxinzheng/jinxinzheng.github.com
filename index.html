@@ -9,7 +9,7 @@
   <meta name="author" content="Jinxin Zheng">
 
   
-  <meta name="description" content="大约5个月前，我怀着激动的心情，花高价购入了Apple最新的12寸New Macbook。外观什么的确实漂亮。不过嘛，拿回来发现居然不能装Linux！！ 我换了几个最新的Live CD，包括Ubuntu, Archlinux, Fedora等，无一例外，都是无法识别SSD硬盘和键盘。 &hellip;">
+  <meta name="description" content="今天参加了FreeWheel笔试，不难，但是我答的不好。。可能还是太渣了吧。最后一道题是MapReduce计算矩阵乘法，可是我只懂MapReduce的一些概念性的东西，这题果断做不出来。。 算了不想了。还有一道挺有意思的题，第一次遇到，这里记下来。 程序改错：以下程序要打印20个-号，但程序错了。 &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -26,6 +26,38 @@
   <script>!window.jQuery && document.write(unescape('%3Cscript src="/javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
   <script src="/javascripts/octopress.js" type="text/javascript"></script>
   <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+
+<!-- mathjax config similar to math.stackexchange -->
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+    });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+
+<script type="text/javascript"
+   src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
 
   
 
@@ -62,6 +94,62 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2015/10/16/freewheel-bi-shi-ti/">FreeWheel笔试题一道</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2015-10-16T23:15:20+08:00'><span class='date'><span class='date-month'>Oct</span> <span class='date-day'>16</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>11:15 pm</span></time>
+        
+           | <a href="/blog/2015/10/16/freewheel-bi-shi-ti/#disqus_thread"
+             data-disqus-identifier="http://jinxinzheng.github.io/blog/2015/10/16/freewheel-bi-shi-ti/">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>今天参加了FreeWheel笔试，不难，但是我答的不好。。可能还是太渣了吧。最后一道题是MapReduce计算矩阵乘法，可是我只懂MapReduce的一些概念性的东西，这题果断做不出来。。</p>
+
+<p>算了不想了。还有一道挺有意思的题，第一次遇到，这里记下来。</p>
+
+<p>程序改错：以下程序要打印20个-号，但程序错了。只允许修改或添加一个字符，把程序改成正确的。要求写出三种解法。</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class='C'><span class='line'><span class="kt">int</span> <span class="n">n</span> <span class="o">=</span> <span class="mi">20</span><span class="p">;</span>
+</span><span class='line'><span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">n</span><span class="p">;</span> <span class="n">i</span><span class="o">--</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>    <span class="n">printf</span><span class="p">(</span><span class="s">&quot;-&quot;</span><span class="p">);</span>
+</span><span class='line'><span class="p">}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>解法</p>
+
+<ul>
+<li>(1): i &lt; n $\rightarrow$ -i &lt; n (这应该是最简单的，我当时竟然没想到。。)</li>
+<li>(2): i-- $\rightarrow$ n--</li>
+<li>(3): i &lt; n $\rightarrow$ i + n</li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -178,6 +266,10 @@
     <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2015/10/16/freewheel-bi-shi-ti/">FreeWheel笔试题一道</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2015/10/15/2015-new-macbook-12-bu-zhi-chi-linux/">2015 New Macbook 12'' 不支持Linux</a>

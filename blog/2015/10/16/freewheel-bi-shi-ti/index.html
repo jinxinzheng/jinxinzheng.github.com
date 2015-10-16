@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>终于搞定了octopress的配置 - Jinxin's Blog</title>
+  <title>FreeWheel笔试题一道 - Jinxin's Blog</title>
   <meta name="author" content="Jinxin Zheng">
 
   
-  <meta name="description" content="说来惭愧，作为一个码农，竟然拖延了这么久才折腾出自己的blog。以前对blog的印象是花里胡哨的界面，难用的Web编辑器，支离破碎的页面逻辑。。以至于很长一段时间很反感blog。离开Web太久了，竟然已经孤陋寡闻到了这种地步。。 用octopress+github搭建blog，逼格够够的。 &hellip;">
+  <meta name="description" content="今天参加了FreeWheel笔试，不难，但是我答的不好。。可能还是太渣了吧。最后一道题是MapReduce计算矩阵乘法，可是我只懂MapReduce的一些概念性的东西，这题果断做不出来。。 算了不想了。还有一道挺有意思的题，第一次遇到，这里记下来。 程序改错：以下程序要打印20个-号，但程序错了。 &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://jinxinzheng.github.io/blog/2015/10/14/zhong-yu-gao-ding-liao-octopressde-pei-zhi/">
+  <link rel="canonical" href="http://jinxinzheng.github.io/blog/2015/10/16/freewheel-bi-shi-ti/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Jinxin's Blog" type="application/atom+xml">
@@ -97,7 +97,7 @@
   
   <header>
     
-      <h1 class="entry-title">终于搞定了octopress的配置</h1>
+      <h1 class="entry-title">FreeWheel笔试题一道</h1>
     
     
       <p class="meta">
@@ -106,7 +106,7 @@
 
 
 
-<time class='entry-date' datetime='2015-10-14T14:59:13+08:00'><span class='date'><span class='date-month'>Oct</span> <span class='date-day'>14</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>2:59 pm</span></time>
+<time class='entry-date' datetime='2015-10-16T23:15:20+08:00'><span class='date'><span class='date-month'>Oct</span> <span class='date-day'>16</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>11:15 pm</span></time>
         
            | <a href="#disqus_thread"
              data-disqus-identifier="http://jinxinzheng.github.io">Comments</a>
@@ -116,11 +116,31 @@
   </header>
 
 
-<div class="entry-content"><p>  说来惭愧，作为一个码农，竟然拖延了这么久才折腾出自己的blog。以前对blog的印象是花里胡哨的界面，难用的Web编辑器，支离破碎的页面逻辑。。以至于很长一段时间很反感blog。离开Web太久了，竟然已经孤陋寡闻到了这种地步。。</p>
+<div class="entry-content"><p>今天参加了FreeWheel笔试，不难，但是我答的不好。。可能还是太渣了吧。最后一道题是MapReduce计算矩阵乘法，可是我只懂MapReduce的一些概念性的东西，这题果断做不出来。。</p>
 
-<p>  用octopress+github搭建blog，逼格够够的。由于我对git的喜爱，所以用起来得心应手。除了对ruby和rake/gem不太熟，配置时稍微有点绕外，其他都很简单。关键是页面干净啊，再也不用忍受某易，某浪，某DN的那种业余界面了。嗯嗯。荒废了很久的blog既然重新拾起来，就要勤写。以后一定要克服懒惰的毛病，搞技术的还是要有搞技术的样子。</p>
+<p>算了不想了。还有一道挺有意思的题，第一次遇到，这里记下来。</p>
 
-<p>  下一步研究怎么开通评论功能。</p>
+<p>程序改错：以下程序要打印20个-号，但程序错了。只允许修改或添加一个字符，把程序改成正确的。要求写出三种解法。</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class='C'><span class='line'><span class="kt">int</span> <span class="n">n</span> <span class="o">=</span> <span class="mi">20</span><span class="p">;</span>
+</span><span class='line'><span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">n</span><span class="p">;</span> <span class="n">i</span><span class="o">--</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>    <span class="n">printf</span><span class="p">(</span><span class="s">&quot;-&quot;</span><span class="p">);</span>
+</span><span class='line'><span class="p">}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>解法</p>
+
+<ul>
+<li>(1): i &lt; n $\rightarrow$ -i &lt; n (这应该是最简单的，我当时竟然没想到。。)</li>
+<li>(2): i-- $\rightarrow$ n--</li>
+<li>(3): i &lt; n $\rightarrow$ i + n</li>
+</ul>
+
 </div>
 
 
@@ -136,7 +156,7 @@
 
 
 
-<time class='entry-date' datetime='2015-10-14T14:59:13+08:00'><span class='date'><span class='date-month'>Oct</span> <span class='date-day'>14</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>2:59 pm</span></time>
+<time class='entry-date' datetime='2015-10-16T23:15:20+08:00'><span class='date'><span class='date-month'>Oct</span> <span class='date-day'>16</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>11:15 pm</span></time>
       
 
 
@@ -151,10 +171,8 @@
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2015/10/14/test-blog/" title="Previous Post: test blog">&laquo; test blog</a>
+        <a class="basic-alignment left" href="/blog/2015/10/15/2015-new-macbook-12-bu-zhi-chi-linux/" title="Previous Post: 2015 New Macbook 12'' 不支持Linux">&laquo; 2015 New Macbook 12'' 不支持Linux</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2015/10/15/2015-new-macbook-12-bu-zhi-chi-linux/" title="Next Post: 2015 New Macbook 12'' 不支持Linux">2015 New Macbook 12'' 不支持Linux &raquo;</a>
       
     </p>
   </footer>
@@ -216,8 +234,8 @@
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://jinxinzheng.github.io/blog/2015/10/14/zhong-yu-gao-ding-liao-octopressde-pei-zhi/';
-        var disqus_url = 'http://jinxinzheng.github.io/blog/2015/10/14/zhong-yu-gao-ding-liao-octopressde-pei-zhi/';
+        var disqus_identifier = 'http://jinxinzheng.github.io/blog/2015/10/16/freewheel-bi-shi-ti/';
+        var disqus_url = 'http://jinxinzheng.github.io/blog/2015/10/16/freewheel-bi-shi-ti/';
         var disqus_script = 'embed.js';
       
     (function () {
